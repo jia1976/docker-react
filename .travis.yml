@@ -6,4 +6,4 @@ before_insall:
     - docker build -t testtravis -f Dockerfile.dev .
 
 script:
-    - docker run testtravis npm run test -- --coverage 
+    - docker run -e CI=true testtravis npm run test
