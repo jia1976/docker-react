@@ -1,0 +1,9 @@
+sudo: required
+services:
+    - docker
+
+before_insall:
+    - docker build -t TestTravis -f Dockerfile.dev .
+
+script:
+    - docker run TestTravis npm run test -- --coverage 
