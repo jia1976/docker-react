@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Oponpopon Puchi puchi test10
+          Oponpopon Puchi puchi test10 change reature
         </p>
         <a
           className="App-link"
